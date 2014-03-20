@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstViewController.h"
+#import "SecondViewController.h"
+#import "ThirdViewController.h"
+#import "FourthViewController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController{
+    
+    FirstViewController * firstVC;
+    SecondViewController * secondVC;
+    ThirdViewController * thirdVC;
+    FourthViewController * fourthVC;
+
+}
 
 @end
